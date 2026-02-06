@@ -1,6 +1,5 @@
-import java.time.chrono.ChronoLocalDate;
 import java.util.*;
-import java.time.LocalDate;
+import java.time.*;
 class homepage{
     void homepage(){
         System.out.println("========================");
@@ -23,8 +22,7 @@ class Main {
     static void main(String[] args) {
         System.out.println("**********Wel-Come To Bank *************");
         Scanner input = new Scanner(System.in);
-        LocalDate date;
-
+        Date current = new Date();
         ArrayList <data> list = new ArrayList<>();
         homepage Home = new homepage();
         while (true){
@@ -89,12 +87,25 @@ class Main {
                 accountType = input.nextLine();
                 System.out.println("Enter Account Number");
                 accountNumber = input.nextLong();
-                System.out.println();
+               if (list.isEmpty()){
+                   System.out.println("No Entry ");
+               }else {
+                   int entrys = 0;
+                   for (data d :list){
+                       entrys += d.Amount;
+                       System.out.println("Entry"+entrys);
+                       System.out.println(current);
+                   }
+
+
+               }
+
 
             case 5:
                 System.out.println("Thank You For Using Bank System");
                  System.exit(0);
-           }
+
+        }
         }
     }
 }
