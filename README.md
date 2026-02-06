@@ -57,6 +57,8 @@ Bank-System/
 Clone the repository
 
 git clone https://github.com/Dheerajparihar111/Bank-System.git
+<img width="1912" height="1022" alt="banksystem output1" src="https://github.com/user-attachments/assets/2c5c5764-2100-445d-bf88-7f4f19651961" />
+<img width="1913" height="1016" alt="banksystem output2" src="https://github.com/user-attachments/assets/d7e04578-1e3e-472b-978a-595c0fe01ed6" />
 
 
 Open the project in IntelliJ IDEA or any Java IDE
