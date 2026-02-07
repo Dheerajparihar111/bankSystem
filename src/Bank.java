@@ -6,7 +6,7 @@ public class Bank {
 
     public void createAccount() {
         System.out.print("Enter Account Number: ");
-        int accNo = sc.nextInt();
+        long accNo = sc.nextLong();
         sc.nextLine();
 
         System.out.print("Enter Account Holder Name: ");

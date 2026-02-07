@@ -1,8 +1,8 @@
 public class Account {
-    private int accountNumber;
+    private long accountNumber;
     private String accountHolderName;
     private double balance;
-    public Account(int accountNumber, String accountHolderName) {
+    public Account(long accountNumber, String accountHolderName) {
         this.accountNumber = accountNumber;
         this.accountHolderName = accountHolderName;
         this.balance = 0.0;
