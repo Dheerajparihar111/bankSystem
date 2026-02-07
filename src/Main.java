@@ -9,12 +9,13 @@ public class Main {
         int choice;
 
         do {
-            System.out.println("\n===== BANK MANAGEMENT SYSTEM =====");
-            System.out.println("1. Create Account");
-            System.out.println("2. Deposit Money");
-            System.out.println("3. Withdraw Money");
-            System.out.println("4. Check Balance");
-            System.out.println("5. Exit");
+            System.out.println("\n ===== BANK MANAGEMENT SYSTEM =======");
+            System.out.println(" |1. Create Account                 |");
+            System.out.println(" |2. Deposit Money                  |");
+            System.out.println(" |3. Withdraw Money                 |");
+            System.out.println(" |4. Check Balance                  |");
+            System.out.println(" |5. Exit                           |");
+            System.out.println(" ====================================");
             System.out.print("Enter your choice: ");
 
             choice = sc.nextInt();
